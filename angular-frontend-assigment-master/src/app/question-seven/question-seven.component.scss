@@ -1,0 +1,81 @@
+a[href^="http:"] {
+   color:red;
+   }
+
+#colorchilderen {
+    // overider this for second problem 
+
+    div {
+    color:green;
+    }
+
+    div > div > div > div{
+    color:yellow;
+    }
+
+     div > div{
+
+    color:red;
+    }
+
+    }
+
+#bluecolor {
+    // for second problem
+    ul  {
+     
+     li:nth-child(3){
+
+      color:blue;
+
+     }
+
+     li > ul > li:nth-child(2){
+
+     color:blue;
+     }
+     li > ul > li:nth-child(3){
+
+     color:black;
+     }
+
+
+     }
+     
+    
+     
+
+}
+
+#evenodd {
+    // for third problem 
+
+    li:nth-child(even){
+
+    color:red;
+    }
+        li:nth-child(odd){
+
+    color:green;
+    }
+}
+
+#lastselector {
+    // for fourth problem 
+
+    ul > li:last-child{
+
+    color:red;
+    }
+}
+
+
+a:not([href]):hover {
+    color: red;
+    text-decoration: underline;
+}
+a:not([href]):active {
+    color: blue;
+    text-decoration: underline;
+    
+}

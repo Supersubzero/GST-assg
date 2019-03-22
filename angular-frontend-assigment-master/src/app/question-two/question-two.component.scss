@@ -1,0 +1,59 @@
+div.part1{
+	
+	span{
+	color: Blue;
+	}
+
+	 p:nth-child(1) {
+    color: red;
+   
+    }
+    div>p{
+    color: green;
+   
+    }
+
+    p:last-child {
+    color: yellow;
+   
+    }
+}
+
+div.part2{
+
+    li{
+    color:red;
+    }
+	
+	li:nth-child(3n){
+
+	color:green;
+	}
+}
+
+div.part3{
+	
+	div{
+     color: blue;
+	}
+	span.iAffectMyNextdiv + div {
+	 color: red;
+	}
+
+
+}
+
+div.part4{
+
+
+   a[href^="https:"] {
+   color:red;
+   }
+	
+   a[target=_blank]{
+   color: yellow;
+   }
+   a{
+   color: green;
+   }
+}

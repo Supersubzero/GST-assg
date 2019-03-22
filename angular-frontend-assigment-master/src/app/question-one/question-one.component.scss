@@ -1,0 +1,38 @@
+input{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  }
+
+input:required:valid {
+  border-color: forestgreen;
+}
+
+input.ng-touched:required:invalid{
+  border-color: red;
+}
+
+input[value=""]{
+	
+	border-color: forestgreen;
+}
+
+
+  button{
+   font-size: 20px;
+   padding: 3px;
+   background-color: #4CAF50;
+   transition-duration: 0.4s;
+  }
+
+  button:hover{
+
+  background-color: white;
+  }
+
+p{
+	color:red;
+}

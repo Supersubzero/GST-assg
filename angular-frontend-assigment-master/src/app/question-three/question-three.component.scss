@@ -1,0 +1,132 @@
+
+.section1{
+
+    
+
+	div{
+		width:1000px;
+		height:333.33px;
+		background-color: blue;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		
+	}
+
+	div > div{
+
+	    width: 100px;
+	    height: 100px;
+	    float: left;
+	    display: inline-block;
+	    border:2px solid;
+	    background-color:red;
+
+
+	}
+
+	div > div:nth-child(2) {
+	    margin: auto;
+	    right:45%;
+    	position: absolute;
+    	border:2px solid;
+    	background-color:orange;
+	}
+	div > div:nth-child(3) {
+	    right: 0;
+    	position: absolute;
+    	border:2px solid;
+    	background-color:green;
+	}
+}
+
+.arrange2{
+	
+
+    margin-top: 30px;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    background-color: blue;
+	
+	div{
+	  height: 100px;
+    width: 100px;
+    border: 2px solid;
+   
+    }
+
+   div:nth-child(1){
+   top:0;
+   left:0;
+   background-color:green;
+   position:absolute;
+   }
+
+  div:nth-child(2){
+  top:0;
+  left:45%;
+  background-color:orange;
+  position:absolute;
+  }
+
+  div:nth-child(3){
+  top:0;
+  right:0;
+  background-color:red;
+  position:absolute;  
+  }
+
+  div:nth-child(4){
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-color:green;
+
+  }  
+
+  div:nth-child(5){
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  background-color:orange;
+
+  } 
+
+  div:nth-child(6){
+  position: absolute;
+  right: 0;
+  top: 50%;
+  background-color:red;
+
+  } 
+  div:nth-child(7){
+  position: absolute;
+  left: 0;
+  bottom:0;
+  background-color:green;
+
+  } 
+
+  div:nth-child(8){
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  background-color:orange;
+
+  } 
+
+  div:nth-child(9){
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color:red;
+
+  }
+
+
+}
+
+	
+
+
